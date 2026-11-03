@@ -33,24 +33,26 @@ El resultado se almacena en el fichero user/.npmrc
 
 ## Desarrollo del curso
 
-### Día 1. Lunes 03/11/2026
+### Día 1. Martes 03/11/2026
 
-<!-- - Presentación del curso, el formador y los alumnos.
+- Presentación del curso, el formador y los alumnos.
 - Introducción a las pruebas de software.
 - Configuración del entorno de desarrollo con Vitest.
   - Monorepo con npm
-  - Proyecto con Vite - TS - React - Vitest - Testing Library
+  - Proyecto con Vite - TS - React (sin Vitest - Testing Library)
   - Proyecto con TS y Vitest
+
 - Elementos de los tests unitarios
-
   - Estructura de los tests. Suites. Teardown o Setup.
-  - Primer tests con Vitest -->
-
-- [Descanso] - 11:45 a 12:10
-
-<!-- - Elementos de los tests unitarios
-
+  - Primer tests con Vitest
+  - Primer test conn Node.js
   - Patrones: Given, When, Then (Gherkin). Arrange, Act, Assert.
+  - Coverage de tests unitarios con Vitest-v8
+
+- [Descanso] - 11:40 a 12:10
+
+
+- Elementos de los tests unitarios
   - Primeros tests unitarios con Vitest
     - Matches
     - Matches de errores
@@ -59,12 +61,14 @@ El resultado se almacena en el fichero user/.npmrc
   - Desarrollo del proceso TDD
   - Refactorización: Automatizando casos de uso
   - Casos de uso extremos (corner cases) y casos de uso límite (boundary cases)
-  - Extracción de funciones auxiliares (mencionado) -->
+  - Extracción de funciones auxiliares
+  
+- Asincronía en JS: callbacks y promesas
 
-### Día 2. Martes 04/11/2026
+
+### Día 2. Miércoles 04/11/2026
 
 <!-- - Test de Funciones
-
   - Asincronía
     - Mocks y Spies
     - Caso real: getUsers con fetch y axios (creado sin tests)
@@ -86,7 +90,7 @@ El resultado se almacena en el fichero user/.npmrc
   - App: solo render
 - Actualización de la configuración de testing -->
 
-### Día 3. Miércoles 05/11/2026
+### Día 3. Jueves 05/11/2026
 
 <!-- - Nuevo proyecto
   - react-router
@@ -111,7 +115,7 @@ El resultado se almacena en el fichero user/.npmrc
 - Gestión de asincronía en tests
   - Testar un servicio que usa fetch -> mock -->
 
-### Día 4. Jueves 06/11/2026
+### Día 4. Viernes 06/11/2026
 
 <!-- - Gestión de asincronía en tests
 
