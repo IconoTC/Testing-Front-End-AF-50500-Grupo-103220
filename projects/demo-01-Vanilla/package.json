@@ -1,0 +1,20 @@
+{
+  "name": "demo-01-vanilla",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Demo de prueba para el curso de Testing Front-End: Vanilla TS",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:c": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "Alejandro Cerezo",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@vitest/coverage-v8": "^5.1.0",
+    "typescript": "^6.0.3",
+    "vitest": "^5.1.0"
+  }
+}
