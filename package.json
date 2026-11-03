@@ -1,0 +1,24 @@
+{
+  "name": "in-situ3-26-11",
+  "version": "1.0.0",
+  "type": "module",
+  "workspaces": [
+    "projects/*"
+  ],
+  "description": "Proyecto de prueba para el curso de Testing Front-End",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alejandro Cerezo",
+  "license": "ISC",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IconoTC/Testing-Front-End-AF-50500-Grupo-103220.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IconoTC/Testing-Front-End-AF-50500-Grupo-103220/issues"
+  },
+  "homepage": "https://github.com/IconoTC/Testing-Front-End-AF-50500-Grupo-103220#readme"
+}
