@@ -38,6 +38,7 @@ El resultado se almacena en el fichero user/.npmrc
 - Presentación del curso, el formador y los alumnos.
 - Introducción a las pruebas de software.
 - Configuración del entorno de desarrollo con Vitest.
+  - Node. nvm. VSCode
   - Monorepo con npm
   - Proyecto con Vite - TS - React (sin Vitest - Testing Library)
   - Proyecto con TS y Vitest
@@ -68,27 +69,42 @@ El resultado se almacena en el fichero user/.npmrc
 
 ### Día 2. Miércoles 04/11/2026
 
-<!-- - Test de Funciones
+- Test de Funciones
   - Asincronía
     - Mocks y Spies
     - Caso real: getUsers con fetch y axios (creado sin tests)
     - Testando getUsers con fetch y axios
-    - Spies en Vitest -->
+    - Spies en Vitest: console.log, video.play
 
-- [Descanso] : 11:55 a 12:15
+- Tests de Clases
+  - Interfaces. Configuración del coverage
 
-<!-- - Tests de Componentes con Testing Library
+- [Descanso] : 11:30 a 12:00
+
+- Tests de Clases
+  - Capa repositorio
+
+<!-- 
+  - Capa servicio estado
+-->
+
+- Tests de Componentes con Testing Library
+- Actualización del proyecto con Vite-TS-React:  Vitest & Testing Library
 - Conceptos básicos de Testing Library
   - Renderizado de componentes
+  - screen (debug) y queries
   - Búsqueda de elementos
   - Simulación de eventos
+- Actualización de la configuración de testing 
+
+<!--
 - Primeros tests de componentes a partir de la App ejemplo
   - Footer: render element
   - Header: props
   - Counter: events
   - Card: children
   - App: solo render
-- Actualización de la configuración de testing -->
+-->
 
 ### Día 3. Jueves 05/11/2026
 
@@ -113,7 +129,8 @@ El resultado se almacena en el fichero user/.npmrc
   - Formularios y validaciones
 
 - Gestión de asincronía en tests
-  - Testar un servicio que usa fetch -> mock -->
+  - Testar un servicio que usa fetch -> mock 
+-->
 
 ### Día 4. Viernes 06/11/2026
 
@@ -159,8 +176,5 @@ Posibles ampliaciones futuras:
   - Introducción a los custom hooks
   - Testando custom hooks desde el componente
 
-- Tests de Clases
-  - Interfaces
-  - Capa repositorio
-  - Capa servicio estado
+
 -->
