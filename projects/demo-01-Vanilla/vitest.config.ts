@@ -9,8 +9,8 @@ export default defineConfig({
         exclude: ['node/**/*.ts'],
         // opcionalmente, para configurar la cobertura
         coverage: {
-            // include: ['src/**/*.ts'],
-            // exclude: ['src/index.ts', 'src/**/types/*.ts'],
+            include: ['src/**/*.ts'],
+            exclude: ['src/index.ts', 'src/**/types/*.ts'],
         },
     },
 });
