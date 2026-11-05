@@ -24,7 +24,7 @@ function App() {
             <Header appTitle={title}>
                 <Menu menuOptions={menuOptions} />
             </Header>
-            <section className="center">
+            <section className="center" data-testId="hero-section">
                 <Hero />
                 <Card className={['center']}>
                     <Start />
@@ -32,7 +32,7 @@ function App() {
                 </Card>
             </section>
 
-            <section className="next-steps">
+            <section className="next-steps" data-testId="info-section">
                 <Info />
             </section>
 

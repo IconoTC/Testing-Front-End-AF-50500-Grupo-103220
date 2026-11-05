@@ -7,7 +7,7 @@ describe('App', () => {
         // Test implementation
         render(<App />);
         //screen.debug()
-        const heading = screen.getByRole('heading', { name: /started/i });
-        expect(heading).toBeInTheDocument();
+        const heroSection = screen.getByTestId('hero-section');
+        expect(heroSection).toBeInTheDocument();
     });
 });
