@@ -1,6 +1,6 @@
 interface Props {
-    appTitle?: string;
-    children?: React.ReactNode;
+    appTitle: string;
+    children: React.ReactNode;
 }
 
 export const Header: React.FC<Props> = ({ appTitle, children }) => {

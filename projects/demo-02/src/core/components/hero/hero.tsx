@@ -11,7 +11,7 @@ export const Hero: React.FC = () => {
                 className="base"
                 width="170"
                 height="179"
-                alt=""
+                alt="base image"
             />
             <img src={reactLogo} className="framework" alt="React logo" />
             <img src={viteLogo} className="vite" alt="Vite logo" />
