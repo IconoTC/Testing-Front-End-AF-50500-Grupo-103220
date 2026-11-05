@@ -3,6 +3,8 @@ import { Menu } from './menu';
 // import { createRoutesStub } from 'react-router';
 // import type { JSX } from 'react';
 import type { MenuOption } from '../../types/menu.option';
+import type { JSX } from 'react/jsx-runtime';
+import { createRoutesStub } from 'react-router';
 
 
 const menuOptions: MenuOption[] = [
@@ -11,36 +13,15 @@ const menuOptions: MenuOption[] = [
     { path: '/about', label: 'About' },
 ];
 
-describe('Menu Component (sin router)', () => {
+// describe('Menu Component (sin router)', () => {
 
-    beforeEach(() => {
-        render(
-            <Menu menuOptions={menuOptions} />);
-    });
-
-    test('should render menu with correct links', () => {
-        
-        const links = screen.getAllByRole('link');
-        expect(links).toHaveLength(3);
-        expect(links[0]).toHaveTextContent('Home');
-        expect(links[0]).toHaveAttribute('href', '/');
-        expect(links[1]).toHaveTextContent('Products');
-        expect(links[1]).toHaveAttribute('href', '/products');
-        expect(links[2]).toHaveTextContent('About');
-        expect(links[2]).toHaveAttribute('href', '/about');
-    });
-});
-
-// describe('Menu Component', () => {
-//     const Stub = createRoutesStub([
-//         {
-//             path: '/',
-//             Component: (): JSX.Element => <Menu menuOptions={menuOptions} />,
-//         },
-//     ]);
+//     beforeEach(() => {
+//         render(
+//             <Menu menuOptions={menuOptions} />);
+//     });
 
 //     test('should render menu with correct links', () => {
-//         render(<Stub initialEntries={['/']} />);
+        
 //         const links = screen.getAllByRole('link');
 //         expect(links).toHaveLength(3);
 //         expect(links[0]).toHaveTextContent('Home');
@@ -51,3 +32,24 @@ describe('Menu Component (sin router)', () => {
 //         expect(links[2]).toHaveAttribute('href', '/about');
 //     });
 // });
+
+describe('Menu Component', () => {
+    const Stub = createRoutesStub([
+        {
+            path: '/',
+            Component: (): JSX.Element => <Menu menuOptions={menuOptions} />,
+        },
+    ]);
+
+    test('should render menu with correct links', () => {
+        render(<Stub initialEntries={['/']} />);
+        const links = screen.getAllByRole('link');
+        expect(links).toHaveLength(3);
+        expect(links[0]).toHaveTextContent('Home');
+        expect(links[0]).toHaveAttribute('href', '/');
+        expect(links[1]).toHaveTextContent('Products');
+        expect(links[1]).toHaveAttribute('href', '/products');
+        expect(links[2]).toHaveTextContent('About');
+        expect(links[2]).toHaveAttribute('href', '/about');
+    });
+});
