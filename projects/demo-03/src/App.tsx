@@ -8,6 +8,7 @@ import type { MenuOption } from './core/types/menu.option';
 import { Menu } from './core/components/menu/menu';
 import { Outlet } from 'react-router';
 
+
 function App() {
     const title = 'React + TS + Vite (2)';
     const menuOptions: MenuOption[] = [
@@ -22,7 +23,6 @@ function App() {
             <Header appTitle={title}>
                 <Menu menuOptions={menuOptions} />
             </Header>
-
             <main>
                 <Outlet />
             </main>
