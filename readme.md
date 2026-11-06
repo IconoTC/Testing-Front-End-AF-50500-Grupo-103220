@@ -97,55 +97,59 @@ El resultado se almacena en el fichero user/.npmrc
   - Simulación de eventos
 - Actualización de la configuración de testing 
 
-<!--
+### Día 3. Jueves 05/11/2026
+
 - Primeros tests de componentes a partir de la App ejemplo
   - Footer: render element
   - Header: props
   - Counter: events
   - Card: children
+  - Menu: props 
   - App: solo render
--->
 
-### Día 3. Jueves 05/11/2026
+- [Descanso] : 11:30 a 12:00
 
-<!-- - Nuevo proyecto
+
+- Nuevo proyecto
   - react-router
-- Tests de Componentes con rutas
 
+- Tests de Componentes con rutas
   - Configuración de rutas con React Router
   - Testando rutas sin carga diferida (lazy)
-  - Componente Menú -->
+  - Componente Menú usando Link. Test del menú
 
-- [Descanso] : 11:45 a 12:05
-
-<!-- - Tests de Componentes con rutas
-
-  - Test del menú
 
 - Formularios y validaciones
-
   - Testando formularios controlados
   - (Es igual testando formularios no controlados)
-  - Formularios y validaciones
-
-- Gestión de asincronía en tests
-  - Testar un servicio que usa fetch -> mock 
--->
 
 ### Día 4. Viernes 06/11/2026
 
-<!-- - Gestión de asincronía en tests
 
+- Formularios y validaciones
+
+- Gestión de asincronía en tests
+  - Testar un servicio que usa fetch -> mock 
+
+<!-- 
   - Testando rutas con carga diferida (lazy)
+-->
 
 - Context API
-
   - Introducción a la Context API de React
-  - Testando componentes que consumen contextos -->
+  - Testando componentes que consumen contextos 
 
-- [Descanso]
+<!--
+Posibles ampliaciones futuras:
 
-<!-- - Pruebas e2e y de Accesibilidad con Playwright
+- Custom hooks
+  - Introducción a los custom hooks
+  - Testando custom hooks desde el componente
+-->
+
+- [Descanso] 11:30 a 12:00
+
+- Pruebas e2e y de Accesibilidad con Playwright
 
   - Introducción a Playwright
   - Instalación. Browsers
@@ -167,14 +171,5 @@ El resultado se almacena en el fichero user/.npmrc
   - Navegación por teclado
   - Validación de roles ARIA
   - Captura y comparación de snapshots de accesibilidad
-  - Extensión axe-core en Playwright -->
+  - Extensión axe-core en Playwright
 
-<!--
-Posibles ampliaciones futuras:
-
-- Custom hooks
-  - Introducción a los custom hooks
-  - Testando custom hooks desde el componente
-
-
--->
